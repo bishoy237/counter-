@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family:Cursed ;
+    src: url("CursedTimerUlil.ttf");
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    background-position: center;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px
+   
+}
+
+#home {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin-right: 106px;
+    margin-top: 68px;
+    margin-left: 85px;
+    margin-bottom: 21px;
+    
+}
+#guest {
+    margin-left: 90px;
+    margin-right: 86px;
+    
+}
+#box1 {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    margin-right: 100px;
+    margin-left: 90px;
+    border-radius: 5px;
+    color:  #F94F6D;
+    font-family: Cursed ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    font-weight: 400;
+    
+    line-height: 127px;
+}
+
+#box2 {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    margin-left: 100px;
+    margin-right: 83px;
+    border-radius: 5px;
+    color:  #F94F6D;
+    font-family: Cursed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+}
+   /* #btns1, .btns2 {
+        height:45px ;
+        width: 155px; 
+
+    }*/
+
+    #btn1, #btn2, #btn3  {
+    background-color:#1B244A ;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: #EEEEEE;
+    font-family: Cursed;
+    margin-top: 271 px;
+    height: 45px;
+    width: 45px;
+}
+
+
+
+
